@@ -7,14 +7,16 @@ public class Samople02{
         
         // char, int, float, long
         char b = 'a';
-        int c = 1;
-        float d = 1.23F;
-        double e = 1.23e4;
+        String c = "abc";
+        int d = 1;
+        float e = 1.23F;
+        double f = 1.23e4;
         System.out.println(b);
         System.out.println(c);
         System.out.println(d);
         System.out.println(e);
-
+        System.out.println(f);
+        
         float f1 = Float.NaN;                  // 非数（Not a Number）
         float f2 = Float.POSITIVE_INFINITY;    // 正の無限大
         float f3 = Float.NEGATIVE_INFINITY;    // 負の無限大
