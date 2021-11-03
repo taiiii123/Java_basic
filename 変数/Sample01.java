@@ -1,4 +1,4 @@
-public class Sample01{
+class Sample01{
     public static void main(String[] args){
         
         // 静的言語で型を宣言する必要がある。

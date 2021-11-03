@@ -1,4 +1,4 @@
-public class Samople02{
+class Samople02{
     public static void main(String[] args){
         
         // 真偽値
@@ -16,6 +16,7 @@ public class Samople02{
         System.out.println(d);
         System.out.println(e);
         System.out.println(f);
+        // 文字列のとき、''(シングルクォーテーション)は使えない
         
         float f1 = Float.NaN;                  // 非数（Not a Number）
         float f2 = Float.POSITIVE_INFINITY;    // 正の無限大
@@ -29,5 +30,8 @@ public class Samople02{
         System.out.println(d1);
         System.out.println(d2);
         System.out.println(d3);
+        
+        // キャスト(型変換)
+        System.out.println("1.23F(int) =>" + (int)e);
     }
 }
