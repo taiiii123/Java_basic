@@ -4,7 +4,7 @@ public class Sample02 {
         System.out.println(plus(10.5, 20.0));
         System.out.println(plus(10, 20.5));
         System.out.println(plus(10.5, 20));
-        System.out.println(plus("Hello", "World"));    
+        System.out.println(plus("Hello", ""));    
     }
 
     public static int plus(int x, int y){
