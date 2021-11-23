@@ -1,5 +1,14 @@
+# エラー項目
+* [java.lang.NullPointerException](#anchor1)
+* [java.lang.ArrayIndexOutOfBoundsException](#anchor2)
+* [java.lang.NumberFormatException](#anchor3)
+* [java.lang.ClassCastException](#anchor4)
+* [java.lang.ArithmeticException](#anchor5)
+* [java.lang.NoClassDefFoundError](#anchor6)
+* [java.lang.OutOfMemoryError](#anchor7)
 
-<h2><font style="color: #DD0000	;"><b> java.lang.NullPointerException </b></font></h2>
+
+<a id="anchor1"><h2><font style="color: #DD0000	;"><b> java.lang.NullPointerException </b></font></h2></a>
 このエラーはnullのオブジェクトに対してアクセスしようとしたときに発生する。
 プログラミング時に比較的発生しやすいエラーで、エンジニアの間では「ヌルポ」と呼ばれています。
 
@@ -11,7 +20,7 @@
 
 <br />
 
-<h2><font style="color: #DD0000	;"><b> java.lang.ArrayIndexOutOfBoundsException  </b></font></h2>
+<a id="anchor2"><h2><font style="color: #DD0000	;"><b> java.lang.ArrayIndexOutOfBoundsException  </b></font></h2></a>
 配列のインデックスとして存在しない要素を指定した場合に発生するエラーで
 先ほどのエラーの例でも紹介した。配列のインデックスとして1～9のインデックスしかないところ
 10のインデックスに値を設定しようとする場合などに発生する。
@@ -23,7 +32,7 @@
 
 <br />
 
-<h2><font style="color: #DD0000	;"><b> java.lang.NumberFormatException  </b></font></h2>
+<a id="anchor3"><h2><font style="color: #DD0000	;"><b> java.lang.NumberFormatException  </b></font></h2></a>
 このエラーは文字列の値を数値に変換(キャスト）しようとしたが
 文字列に数値として正しくない値が設定されている場合に発生する。
 
@@ -35,7 +44,7 @@
 
 <br />
 
-<h2><font style="color: #DD0000	;"><b> java.lang.ClassCastException  </b></font></h2>
+<a id="anchor4"><h2><font style="color: #DD0000	;"><b> java.lang.ClassCastException  </b></font></h2></a>
 このエラーはあるクラスを変換できないクラスにキャストしようとした時に発生する。
 
 <h3><font style="color: orange;"> 対策 </font></h3>
@@ -45,7 +54,7 @@
 
 <br />
 
-<h2><font style="color: #DD0000	;"><b>java.lang.ArithmeticException  </b></font></h2>
+<a id="anchor5"><h2><font style="color: #DD0000	;"><b>java.lang.ArithmeticException  </b></font></h2></a>
 このエラーは数値の計算において、不正な算術処理が行われた場合に発生する。例えば数学的にあり得ない「ゼロ除算（10÷0 など）」が発生するとこのエラーが発生する。
 
 <h3><font style="color: orange;"> 対策 </font></h3>
@@ -55,7 +64,7 @@
 
 <br />
 
-<h2><font style="color: #DD0000	;"><b> java.lang.NoClassDefFoundError  </b></font></h2>
+<a id="anchor6"><h2><font style="color: #DD0000	;"><b> java.lang.NoClassDefFoundError  </b></font></h2></a>
 メソッドを呼び出す時や、インスタンスを生成しようとしている時に
 Javaがクラス定義を読み込むことができないエラーです。
 
@@ -67,7 +76,7 @@ Javaがクラス定義を読み込むことができないエラーです。
 
 <br />
 
-<h2><font style="color: #DD0000	;"><b> java.lang.OutOfMemoryError  </b></font></h2>
+<a id="anchor7"><h2><font style="color: #DD0000	;"><b> java.lang.OutOfMemoryError  </b></font></h2></a>
 Javaは実行時にスタック領域とヒープ領域という2つのメモリー領域を使用するが
 このエラーはプログラムの実行に必要なヒープ領域のメモリーサイズが不足した時に発生する。<br>
 処理の高負荷などによってメモリ不足になるとこのエラーが発生する。
