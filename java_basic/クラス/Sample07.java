@@ -1,4 +1,4 @@
-/*  インターフェース
+/*  インターフェース (public) class クラス名 implements  インタフェース名 { 処理 }
 インターフェース -> アクセス修飾子 interface インターフェース名{ 処理 } 
 インターフェースの実装 -> public class クラス名 implements インターフェース名{ 処理 }
 
