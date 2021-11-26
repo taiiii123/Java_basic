@@ -1,4 +1,4 @@
-/* 継承 pyblic abstract 戻り値 メソッド名(引数); */
+/* 継承 public abstract 戻り値 メソッド名(引数); */
 
 class Sample06 {
     public static void main(String[] args) {
