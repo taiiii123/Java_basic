@@ -1,5 +1,6 @@
 class Sample {
     public static void main(String[] args) {
+        /* •¶š—ñ‚ğ’²¸ */
         String s1 = "Java";
         String s2 = "java";
         String s3 = "Sample";

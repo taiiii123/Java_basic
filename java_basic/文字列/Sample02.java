@@ -1,5 +1,6 @@
 public class Sample02 {
     public static void main(String[] args) {
+        /* •¶Žš—ñ‚ðŒŸõ */
         String s = "Java and JavaScript";
 
         // ŒŸõ‘ÎÛ‚Ì•¶Žš—ñ.contains(•¶Žš—ñs) -> ˆê•”‚É•¶Žš—ñs‚ðŠÜ‚Ü‚ê‚é‚©‚Ç‚¤‚©‚ð”»’è‚·‚é
