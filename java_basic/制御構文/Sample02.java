@@ -7,7 +7,14 @@ class Sample02{
             System.out.println(i);
         }
         System.out.println("-----------------");
-        
+
+        // 拡張for文
+        int arr[] = {1, 2, 3, 4, 5};
+        for(int val: arr){
+            System.out.println(val);
+        }
+        System.out.println("-----------------");
+
         // while文
         i = 0;
         while(i < 10){
