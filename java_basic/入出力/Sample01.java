@@ -1,7 +1,8 @@
-/* ファイル入出力1 - 読み込み */
+/* ファイル入出力1 - 読み込み1 */
 /* 
 java.io.FileReaderを使用
-readメソッドで読み込み
+FileReaderクラスのreadメソッドで読み込み
+1文字ずつ読み込む
 */
 import java.io.*;
 
