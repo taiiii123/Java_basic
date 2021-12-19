@@ -1,0 +1,3 @@
+現座、Javaで学習している環境はVisual Studio Codeで行っています。
+そのため、以下のサイトを参考にSpring Bootを構築します。
+https://blackbird-blog.com/vsc-springboot-start
